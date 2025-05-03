@@ -1,0 +1,13 @@
+Room Link ==> https://tryhackme.com/room/sqlmap
+
+Task 1: Introduction
+
+- SQLMAP is an open-source penetration testing tool the automates the process the of detecting and exploiting SQL Injection (SQLi) Vulnerabilities.
+- Key Features of SQLMAP:
+    - Automated SQL Injection Detection & Exploitation.
+    - Database fingerprinting (Identifying database type & version).
+    - Extracting Database Data (User Credentials, tables, columns, etc.).
+    - Accessing the file system (reading & writing files).
+    - Executing OS Commands (If the database has high privileges).
+    - Bypassing Security mechanisms (WAFs, IPS&IDS).
+- It provides various switches for fine-tuned control, making it a powerful tool to assess and exploit SQLi Vulnerabilities effectively.

