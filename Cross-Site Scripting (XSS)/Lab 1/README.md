@@ -4,7 +4,7 @@
 
 - Firstly, Enter simple input like this `test'"><`, then search for the input in the Source Code.
 
-  > In order to know which character from those `'"><` are either HTML-Encoded, Stripped, etd.
+  > In order to know which character from those `'"><` are either HTML-Encoded, Stripped, etc.
 
 - You'll see that these characters `'"><` are displayed and interpreted by the browser normally.
   ![1st Screenshot](./Photos/1.png)
