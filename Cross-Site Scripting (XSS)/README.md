@@ -21,3 +21,7 @@
 19. Reflected XSS into a JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped [Lab 19](./Lab%2019/)
 20. Stored XSS into onclick event with angle brackets and double quotes HTML-encoded and single quotes and backslash escaped [Lab 20](./Lab%2020/)
 21. Reflected XSS into a template literal with angle brackets, single, double quotes, backslash and backticks Unicode-escaped [Lab 21](./Lab%2021/)
+22. Exploiting cross-site scripting to steal cookies [Lab 22](./Lab%2022/)
+23. Exploiting cross-site scripting to capture passwords [Lab 23](./Lab%2023/)
+24. Reflected XSS with event handlers and href attributes blocked [Lab 27](./Lab%2027/)
+25. Reflected XSS protected by CSP, with CSP bypass [Lab 30](./Lab%2030/)
