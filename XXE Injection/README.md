@@ -7,5 +7,6 @@
 5. Exploiting blind XXE to retrieve data via error messages. [Lab 05](./Lab%2005/README.md)
 6. Exploiting XInclude to retrieve files. [Lab 06](./Lab%2006/README.md)
 7. Exploiting XXE via image file upload. [Lab 07](./Lab%2007/README.md)
+8. Exploiting XXE to retrieve data by repurposing a local DTD. [Lab 08](./Lab%2008/README.md)
 
 ---
