@@ -4,3 +4,7 @@
 - Basic SSRF against another back-end system, [Lab 02](./Lab%2002/README.md).
 - Blind SSRF with out-of-band detection, [Lab 03](./Lab%2003/README.md).
 - SSRF with blacklist-based input filter, [Lab 04](./Lab%2004/README.md).
+- Blind SSRF with Shellshock exploitation, [Lab 06](./Lab%2006/README.md)
+- SSRF with whitelist-based input filter, [Lab 07](./Lab%2007/README.md)
+
+---
