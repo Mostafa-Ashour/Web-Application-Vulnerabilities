@@ -12,6 +12,10 @@ This Repo will contain my own Reports, Notes, or Scripts for Solving Portswigger
 
 - [XML External Entity (XXE) Injection](./XXE%20Injection/README.md).
 
-- [Server-side request forgery (SSRF)](./SSRF/README.md)
+- [Server-side request forgery (SSRF)](./SSRF/README.md).
+
+- [HTTP Request Smuggling](./HTTP%20Request%20Smuggling/README.md).
+
+- [OS Command Injection](./OS%20Command%20Injection/README.md)
 
 ---
