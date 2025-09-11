@@ -20,4 +20,6 @@ This Repo will contain my own Reports, Notes, or Scripts for Solving Portswigger
 
 - [Server-Side Template Injection (SSTI)](./Server-Side%20Template%20Injection%20-%20SSTI/README.md).
 
+- [Path Traversal](./Path%20Traversal/README.md).
+
 ---
