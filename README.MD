@@ -13,5 +13,6 @@ This Repo will contain my own Reports, Notes, or Scripts for Solving Portswigger
 - [Server-Side Template Injection (SSTI)](./Server-Side%20Template%20Injection%20-%20SSTI/README.md).
 - [Path Traversal](./Path%20Traversal/README.md).
 - [Access control vulnerabilities and privilege escalation](./Access%20control%20vulnerabilities%20and%20privilege%20escalation/README.md).
+- [Authentication Vulnerabilities](./Authentication%20Vulnerabilities/README.md).
 
 ---
