@@ -10,5 +10,7 @@
 - [2FA broken logic](./Lab%2008/README.md).
 - [Brute-forcing a stay-logged-in cookie](./Lab%2009/README.md).
 - [Offline password cracking](./Lab%2010/README.md).
+- [Password brute-force via password change](./Lab%2013/README.md).
+- [2FA bypass using a brute-force attack](./Lab%2014/README.md).
 
 ---
