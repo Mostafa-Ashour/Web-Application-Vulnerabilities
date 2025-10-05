@@ -15,5 +15,6 @@ This Repo will contain my own Reports, Notes, or Scripts for Solving Portswigger
 - [Access control vulnerabilities and privilege escalation](./Access%20control%20vulnerabilities%20and%20privilege%20escalation/README.md).
 - [Authentication Vulnerabilities](./Authentication%20Vulnerabilities/README.md).
 - [Information Disclosure Vulnerabilities](./Information%20Disclosure%20Vulnerabilities/README.md).
+- [Business logic vulnerabilities](./Business%20logic%20vulnerabilities/README.md).
 
 ---
