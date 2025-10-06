@@ -31,3 +31,5 @@
 
 - Currently, the total price is $9.05, try to place an order, and it's placed successfully, and the lab is solved.
   ![10th screenshot](./attachments/10.png)
+
+---
