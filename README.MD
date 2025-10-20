@@ -17,5 +17,6 @@ This Repo will contain my own Reports, Notes, or Scripts for Solving Portswigger
 - [Information Disclosure Vulnerabilities](./Information%20Disclosure%20Vulnerabilities/README.md).
 - [Business logic vulnerabilities](./Business%20logic%20vulnerabilities/README.md).
 - [OAuth 2.0 authentication vulnerabilities](./OAuth%202.0%20authentication%20vulnerabilities/README.md).
+- [File Upload Vulnerabilities](./File%20Upload%20Vulnerabilities/README.md).
 
 ---
