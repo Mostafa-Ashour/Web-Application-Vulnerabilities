@@ -1,0 +1,502 @@
+
+ mutation login($input: LoginInput!) {
+ login1: login(input:{username: "carlos", password: "123456" } ) {
+ token
+ success
+ }
+ 
+ login2: login(input:{username: "carlos", password: "password" } ) {
+ token
+ success
+ }
+ 
+ login3: login(input:{username: "carlos", password: "12345678" } ) {
+ token
+ success
+ }
+ 
+ login4: login(input:{username: "carlos", password: "qwerty" } ) {
+ token
+ success
+ }
+ 
+ login5: login(input:{username: "carlos", password: "123456789" } ) {
+ token
+ success
+ }
+ 
+ login6: login(input:{username: "carlos", password: "12345" } ) {
+ token
+ success
+ }
+ 
+ login7: login(input:{username: "carlos", password: "1234" } ) {
+ token
+ success
+ }
+ 
+ login8: login(input:{username: "carlos", password: "111111" } ) {
+ token
+ success
+ }
+ 
+ login9: login(input:{username: "carlos", password: "1234567" } ) {
+ token
+ success
+ }
+ 
+ login10: login(input:{username: "carlos", password: "dragon" } ) {
+ token
+ success
+ }
+ 
+ login11: login(input:{username: "carlos", password: "123123" } ) {
+ token
+ success
+ }
+ 
+ login12: login(input:{username: "carlos", password: "baseball" } ) {
+ token
+ success
+ }
+ 
+ login13: login(input:{username: "carlos", password: "abc123" } ) {
+ token
+ success
+ }
+ 
+ login14: login(input:{username: "carlos", password: "football" } ) {
+ token
+ success
+ }
+ 
+ login15: login(input:{username: "carlos", password: "monkey" } ) {
+ token
+ success
+ }
+ 
+ login16: login(input:{username: "carlos", password: "letmein" } ) {
+ token
+ success
+ }
+ 
+ login17: login(input:{username: "carlos", password: "shadow" } ) {
+ token
+ success
+ }
+ 
+ login18: login(input:{username: "carlos", password: "master" } ) {
+ token
+ success
+ }
+ 
+ login19: login(input:{username: "carlos", password: "666666" } ) {
+ token
+ success
+ }
+ 
+ login20: login(input:{username: "carlos", password: "qwertyuiop" } ) {
+ token
+ success
+ }
+ 
+ login21: login(input:{username: "carlos", password: "123321" } ) {
+ token
+ success
+ }
+ 
+ login22: login(input:{username: "carlos", password: "mustang" } ) {
+ token
+ success
+ }
+ 
+ login23: login(input:{username: "carlos", password: "1234567890" } ) {
+ token
+ success
+ }
+ 
+ login24: login(input:{username: "carlos", password: "michael" } ) {
+ token
+ success
+ }
+ 
+ login25: login(input:{username: "carlos", password: "654321" } ) {
+ token
+ success
+ }
+ 
+ login26: login(input:{username: "carlos", password: "superman" } ) {
+ token
+ success
+ }
+ 
+ login27: login(input:{username: "carlos", password: "1qaz2wsx" } ) {
+ token
+ success
+ }
+ 
+ login28: login(input:{username: "carlos", password: "7777777" } ) {
+ token
+ success
+ }
+ 
+ login29: login(input:{username: "carlos", password: "121212" } ) {
+ token
+ success
+ }
+ 
+ login30: login(input:{username: "carlos", password: "000000" } ) {
+ token
+ success
+ }
+ 
+ login31: login(input:{username: "carlos", password: "qazwsx" } ) {
+ token
+ success
+ }
+ 
+ login32: login(input:{username: "carlos", password: "123qwe" } ) {
+ token
+ success
+ }
+ 
+ login33: login(input:{username: "carlos", password: "killer" } ) {
+ token
+ success
+ }
+ 
+ login34: login(input:{username: "carlos", password: "trustno1" } ) {
+ token
+ success
+ }
+ 
+ login35: login(input:{username: "carlos", password: "jordan" } ) {
+ token
+ success
+ }
+ 
+ login36: login(input:{username: "carlos", password: "jennifer" } ) {
+ token
+ success
+ }
+ 
+ login37: login(input:{username: "carlos", password: "zxcvbnm" } ) {
+ token
+ success
+ }
+ 
+ login38: login(input:{username: "carlos", password: "asdfgh" } ) {
+ token
+ success
+ }
+ 
+ login39: login(input:{username: "carlos", password: "hunter" } ) {
+ token
+ success
+ }
+ 
+ login40: login(input:{username: "carlos", password: "buster" } ) {
+ token
+ success
+ }
+ 
+ login41: login(input:{username: "carlos", password: "soccer" } ) {
+ token
+ success
+ }
+ 
+ login42: login(input:{username: "carlos", password: "harley" } ) {
+ token
+ success
+ }
+ 
+ login43: login(input:{username: "carlos", password: "batman" } ) {
+ token
+ success
+ }
+ 
+ login44: login(input:{username: "carlos", password: "andrew" } ) {
+ token
+ success
+ }
+ 
+ login45: login(input:{username: "carlos", password: "tigger" } ) {
+ token
+ success
+ }
+ 
+ login46: login(input:{username: "carlos", password: "sunshine" } ) {
+ token
+ success
+ }
+ 
+ login47: login(input:{username: "carlos", password: "iloveyou" } ) {
+ token
+ success
+ }
+ 
+ login48: login(input:{username: "carlos", password: "2000" } ) {
+ token
+ success
+ }
+ 
+ login49: login(input:{username: "carlos", password: "charlie" } ) {
+ token
+ success
+ }
+ 
+ login50: login(input:{username: "carlos", password: "robert" } ) {
+ token
+ success
+ }
+ 
+ login51: login(input:{username: "carlos", password: "thomas" } ) {
+ token
+ success
+ }
+ 
+ login52: login(input:{username: "carlos", password: "hockey" } ) {
+ token
+ success
+ }
+ 
+ login53: login(input:{username: "carlos", password: "ranger" } ) {
+ token
+ success
+ }
+ 
+ login54: login(input:{username: "carlos", password: "daniel" } ) {
+ token
+ success
+ }
+ 
+ login55: login(input:{username: "carlos", password: "starwars" } ) {
+ token
+ success
+ }
+ 
+ login56: login(input:{username: "carlos", password: "klaster" } ) {
+ token
+ success
+ }
+ 
+ login57: login(input:{username: "carlos", password: "112233" } ) {
+ token
+ success
+ }
+ 
+ login58: login(input:{username: "carlos", password: "george" } ) {
+ token
+ success
+ }
+ 
+ login59: login(input:{username: "carlos", password: "computer" } ) {
+ token
+ success
+ }
+ 
+ login60: login(input:{username: "carlos", password: "michelle" } ) {
+ token
+ success
+ }
+ 
+ login61: login(input:{username: "carlos", password: "jessica" } ) {
+ token
+ success
+ }
+ 
+ login62: login(input:{username: "carlos", password: "pepper" } ) {
+ token
+ success
+ }
+ 
+ login63: login(input:{username: "carlos", password: "1111" } ) {
+ token
+ success
+ }
+ 
+ login64: login(input:{username: "carlos", password: "zxcvbn" } ) {
+ token
+ success
+ }
+ 
+ login65: login(input:{username: "carlos", password: "555555" } ) {
+ token
+ success
+ }
+ 
+ login66: login(input:{username: "carlos", password: "11111111" } ) {
+ token
+ success
+ }
+ 
+ login67: login(input:{username: "carlos", password: "131313" } ) {
+ token
+ success
+ }
+ 
+ login68: login(input:{username: "carlos", password: "freedom" } ) {
+ token
+ success
+ }
+ 
+ login69: login(input:{username: "carlos", password: "777777" } ) {
+ token
+ success
+ }
+ 
+ login70: login(input:{username: "carlos", password: "pass" } ) {
+ token
+ success
+ }
+ 
+ login71: login(input:{username: "carlos", password: "maggie" } ) {
+ token
+ success
+ }
+ 
+ login72: login(input:{username: "carlos", password: "159753" } ) {
+ token
+ success
+ }
+ 
+ login73: login(input:{username: "carlos", password: "aaaaaa" } ) {
+ token
+ success
+ }
+ 
+ login74: login(input:{username: "carlos", password: "ginger" } ) {
+ token
+ success
+ }
+ 
+ login75: login(input:{username: "carlos", password: "princess" } ) {
+ token
+ success
+ }
+ 
+ login76: login(input:{username: "carlos", password: "joshua" } ) {
+ token
+ success
+ }
+ 
+ login77: login(input:{username: "carlos", password: "cheese" } ) {
+ token
+ success
+ }
+ 
+ login78: login(input:{username: "carlos", password: "amanda" } ) {
+ token
+ success
+ }
+ 
+ login79: login(input:{username: "carlos", password: "summer" } ) {
+ token
+ success
+ }
+ 
+ login80: login(input:{username: "carlos", password: "love" } ) {
+ token
+ success
+ }
+ 
+ login81: login(input:{username: "carlos", password: "ashley" } ) {
+ token
+ success
+ }
+ 
+ login82: login(input:{username: "carlos", password: "nicole" } ) {
+ token
+ success
+ }
+ 
+ login83: login(input:{username: "carlos", password: "chelsea" } ) {
+ token
+ success
+ }
+ 
+ login84: login(input:{username: "carlos", password: "biteme" } ) {
+ token
+ success
+ }
+ 
+ login85: login(input:{username: "carlos", password: "matthew" } ) {
+ token
+ success
+ }
+ 
+ login86: login(input:{username: "carlos", password: "access" } ) {
+ token
+ success
+ }
+ 
+ login87: login(input:{username: "carlos", password: "yankees" } ) {
+ token
+ success
+ }
+ 
+ login88: login(input:{username: "carlos", password: "987654321" } ) {
+ token
+ success
+ }
+ 
+ login89: login(input:{username: "carlos", password: "dallas" } ) {
+ token
+ success
+ }
+ 
+ login90: login(input:{username: "carlos", password: "austin" } ) {
+ token
+ success
+ }
+ 
+ login91: login(input:{username: "carlos", password: "thunder" } ) {
+ token
+ success
+ }
+ 
+ login92: login(input:{username: "carlos", password: "taylor" } ) {
+ token
+ success
+ }
+ 
+ login93: login(input:{username: "carlos", password: "matrix" } ) {
+ token
+ success
+ }
+ 
+ login94: login(input:{username: "carlos", password: "mobilemail" } ) {
+ token
+ success
+ }
+ 
+ login95: login(input:{username: "carlos", password: "mom" } ) {
+ token
+ success
+ }
+ 
+ login96: login(input:{username: "carlos", password: "monitor" } ) {
+ token
+ success
+ }
+ 
+ login97: login(input:{username: "carlos", password: "monitoring" } ) {
+ token
+ success
+ }
+ 
+ login98: login(input:{username: "carlos", password: "montana" } ) {
+ token
+ success
+ }
+ 
+ login99: login(input:{username: "carlos", password: "moon" } ) {
+ token
+ success
+ }
+ 
+ login100: login(input:{username: "carlos", password: "moscow" } ) {
+ token
+ success
+ }
+  }

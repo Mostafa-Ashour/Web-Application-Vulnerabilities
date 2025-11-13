@@ -19,5 +19,6 @@ This Repo will contain my own Reports, Notes, or Scripts for Solving Portswigger
 - [OAuth 2.0 authentication vulnerabilities](./OAuth%202.0%20authentication%20vulnerabilities/README.md).
 - [File Upload Vulnerabilities](./File%20Upload%20Vulnerabilities/README.md).
 - [JWT Attacks](./JWT%20Attacks/README.md).
+- [GraphQL API Vulnerabilities](./GraphQL%20API%20Vulnerabilities/README.md).
 
 ---
