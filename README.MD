@@ -20,5 +20,6 @@ This Repo will contain my own Reports, Notes, or Scripts for Solving Portswigger
 - [File Upload Vulnerabilities](./File%20Upload%20Vulnerabilities/README.md).
 - [JWT Attacks](./JWT%20Attacks/README.md).
 - [GraphQL API Vulnerabilities](./GraphQL%20API%20Vulnerabilities/README.md).
+- [API Testing](./API%20Testing/README.md).
 
 ---
